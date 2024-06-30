@@ -7,10 +7,6 @@
 [![Docs](https://img.shields.io/badge/docs-hexpm-blue.svg)](https://hexdocs.pm/nebulex)
 [![License](https://img.shields.io/hexpm/l/nebulex.svg)](LICENSE)
 
-Nebulex provides support for transparently adding caching into an existing
-Elixir application. Similar to [Ecto][ecto], the caching abstraction allows
-consistent use of various caching solutions with minimal impact on the code.
-
 Nebulex cache abstraction shields developers from directly dealing with the
 underlying caching implementations, such as [Redis][redis]
 or even other Elixir cache implementations like
